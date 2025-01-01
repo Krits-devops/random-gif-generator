@@ -12,7 +12,7 @@ function Tag() {
     const {gif, loading, fetchData} = useGif(tag);
 
     function clickHandler(){
-      fetchData();
+      fetchData(tag);
     }
 
     function changeHandler(event){
