@@ -29,4 +29,4 @@ function useGif(tag) {
     return {gif,loading,fetchData}
 }
 
-export default useGif
+export default useGif;
